@@ -12,3 +12,5 @@ obMedia = [384.66,826.33, 1580.33, 3131.33, 6722.33, 13970, 27719, 51468.33]
 m, b, r_value, p_value, std_err = stats.linregress(tamanho, obMedia)
 
 print("Valor de m = ", m, "\nValor de b = ", b, "\n")
+
+print("Valor de porcentagem de variação explicado pera variação é de: "+str(round((r_value*r_value)*100))+"%")
