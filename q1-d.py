@@ -58,8 +58,8 @@ limiteSuperiorb0 = b0 + ((1.943)*sb0)
 limiteInferiorb1 = b1 - ((1.943)*sb1)
 limiteSuperiorb1 = b1 + ((1.943)*sb1)
 
-print("Limites para b0: ")
+print("\n\nIntervalo para b0: ")
 print("["+str(limiteInferiorb0)+",  "+str(limiteSuperiorb0)+"]")
 
-print("Limites para b1: ")
-print("["+str(limiteInferiorb1)+",  "+str(limiteSuperiorb1)+"]")
+print("\nIntervalo para b1: ")
+print("["+str(limiteInferiorb1)+",  "+str(limiteSuperiorb1)+"]\n\n")
